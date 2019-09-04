@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B3A1D6"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Volume"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/edtli"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="64dip"
+        android:layout_marginTop="24dip"
+        android:layout_marginRight="64dip"
+        android:background="@drawable/plain_txt"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="liter"
+        android:inputType="numberDecimal"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/edtml"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="64dip"
+        android:layout_marginTop="24dip"
+        android:layout_marginRight="64dip"
+        android:background="@drawable/plain_txt"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="milliliter"
+        android:inputType="numberDecimal"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/edtcubem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="64dip"
+        android:layout_marginTop="24dip"
+        android:layout_marginRight="64dip"
+        android:background="@drawable/plain_txt"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="cubic meter"
+        android:inputType="numberDecimal"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/edtcc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="64dip"
+        android:layout_marginTop="24dip"
+        android:layout_marginRight="64dip"
+        android:background="@drawable/plain_txt"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="cc"
+        android:inputType="numberDecimal"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/edtgl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="64dip"
+        android:layout_marginTop="24dip"
+        android:layout_marginRight="64dip"
+        android:background="@drawable/plain_txt"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="gal(us)"
+        android:inputType="numberDecimal"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btncnv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dip"
+        android:text="Convert" />
+</LinearLayout>

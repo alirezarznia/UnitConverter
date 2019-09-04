@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B3A1D6"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Speed"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/edtms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="48dip"
+        android:layout_marginTop="24dip"
+        android:layout_marginRight="48dip"
+        android:background="@drawable/plain_txt"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="m/s"
+        android:inputType="numberDecimal"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/edtkmh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="48dip"
+        android:layout_marginTop="24dip"
+        android:layout_marginRight="48dip"
+        android:background="@drawable/plain_txt"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="km/h"
+        android:inputType="numberDecimal"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/edtfps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="48dip"
+        android:layout_marginTop="24dip"
+        android:layout_marginRight="48dip"
+        android:background="@drawable/plain_txt"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="fps (foot per second)"
+        android:inputType="numberDecimal"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/edtmph"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="48dip"
+        android:layout_marginTop="24dip"
+        android:layout_marginRight="48dip"
+        android:background="@drawable/plain_txt"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="mph (miles per hour)"
+        android:inputType="numberDecimal"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/edtips"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="48dip"
+        android:layout_marginTop="24dip"
+        android:layout_marginRight="48dip"
+        android:background="@drawable/plain_txt"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="ips (inch per second)"
+        android:inputType="numberDecimal"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btncnv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dip"
+        android:text="Convert" />
+</LinearLayout>

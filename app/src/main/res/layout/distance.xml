@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B3A1D6"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Distance"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/edtmm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="64dip"
+        android:layout_marginTop="24dip"
+        android:layout_marginRight="64dip"
+        android:background="@drawable/plain_txt"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="mm"
+        android:inputType="numberDecimal"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/edtcm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="64dip"
+        android:layout_marginTop="24dip"
+        android:layout_marginRight="64dip"
+        android:background="@drawable/plain_txt"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="cm"
+        android:inputType="numberDecimal"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/edtm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="64dip"
+        android:layout_marginTop="24dip"
+        android:layout_marginRight="64dip"
+        android:background="@drawable/plain_txt"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="m"
+        android:inputType="numberDecimal"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/edtkm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="64dip"
+        android:layout_marginTop="24dip"
+        android:layout_marginRight="64dip"
+        android:background="@drawable/plain_txt"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="km"
+        android:inputType="numberDecimal"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/edtin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="64dip"
+        android:layout_marginTop="24dip"
+        android:layout_marginRight="64dip"
+        android:background="@drawable/plain_txt"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="inch"
+        android:inputType="numberDecimal"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btncnv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dip"
+        android:text="Convert" />
+</LinearLayout>

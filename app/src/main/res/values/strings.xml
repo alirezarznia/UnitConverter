@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">UnitConverter</string>
+    <string name="tem_name">Temprature</string>
+    <string name="spe_name">Speed</string>
+    <string name="dis_name">Distance</string>
+    <string name="vol_name">Volume</string>
+</resources>
